@@ -1,3 +1,8 @@
+// For three integers A, B, C, write a program that counts the number of each digit of A x B x C
+//input 150, 266, 427 ==> output 3,1,0,2,0,0,0,2,0
+
+예를 들어 A = 150, B = 266, C = 427 이라면 A × B × C = 150 × 266 × 427 = 17037300 이 되고, 계산한 결과 17037300 에는 0이 3번, 1이 1번, 3이 2번, 7이 2번 쓰였다.
+
 import java.util.Scanner;
 
 public class Main {
